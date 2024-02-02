@@ -84,7 +84,7 @@ $$
 $$
 ### > Optimization procedure
 $$
-\text{<N/A>}
+\text{N/A}
 $$
 
 In particular, the problem doesn't need optimization due to guaranteed convergence of linear equation of linear regression model.\
