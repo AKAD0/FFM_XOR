@@ -83,7 +83,7 @@ $$
 $$
 ### > Optimization procedure
 $$
-<N/A> \\
+<N/A>
 $$
 In particular, the problem doesn't need optimization due to guaranteed convergence of linear equation of linear regression model.\
 In general, the stochastic gradient descend is usually used which gives acceptable results.
