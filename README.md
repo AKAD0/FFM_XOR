@@ -23,6 +23,7 @@ $$𝕏=\lbrace{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\rbrace}$$
 ## 3.2. Model
 ### > FFM architecture:
 ![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Fig1.png)
+
 $$
 \text{Fig.1: Architecture topology}
 $$
