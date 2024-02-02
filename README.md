@@ -127,7 +127,13 @@ b=0
 $$
 
 # 4. Code
-\<wip\>
+![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Block.png)
+
+$$
+\text{Fig.2: Block scheme of the algorythm}
+$$
+
+The listing of the program is provided in the '/FFM_XOR.ipynb' file.
 
 # 5. Results
-\<wip\>
+MSE metric evaluated as '0.0' and simple human check of outputted results show that the algorythm solves the problem.
