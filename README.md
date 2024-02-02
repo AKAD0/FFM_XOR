@@ -63,6 +63,13 @@ $$
 
 The input function $z$ is a default affine transformation allowing learning algorythm to manipulate data to find representation that reduces error.
 
+### > Input layer:
+$$
+X \in ℕ^{4×2}
+$$
+
+Every row represents a sample of two numbers to pass to XOR function.
+
 ### > Composition
 $$
 f(x; W,c,w,b) = f^{(2)}( f^{(1)}( x)) = w^Tmax\lbrace0, W^Tx+c\rbrace+b
