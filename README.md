@@ -22,7 +22,7 @@ Algorythm structure is comprised of 5 parts: Dataset, Model, Cost function, Opti
 $$𝕏=\{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\}$$
 ## 3.2. Model
 ### > FFM architecture:
-![alt text](https://github.com/AKAD0/FFM_XOR/Fig1.png)
+![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Fig1.png)
 $$
 \text{Fig.1: Architecture topology}
 $$
