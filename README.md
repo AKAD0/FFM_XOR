@@ -11,7 +11,7 @@
 5. Results
 
 # 1. Describtion
-Neural Network of FFM architecture to solve XOR problem. This is a hello-world project to practise mathematical apparatus behind deep learning.
+Neural Network of FFM architecture to solve XOR problem. This is a hello-world project to practice mathematical apparatus behind deep learning.
 
 # 2. Problem
 XOR function via FFM architechture with no use of frameworks.
