@@ -19,11 +19,10 @@ XOR function via FFM architechture with no use of frameworks.
 # 3. Method
 Algorythm structure is comprised of 5 parts: Dataset, Model, Cost function, Optimization procedure and Initializing data. Describtion of every part is provided below.
 ## 3.1. Dataset
-$$𝕏=\{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\}$$
+$$𝕏=\lbrace{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\rbrace}$$
 ## 3.2. Model
 ### > FFM architecture:
 ![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Fig1.png)
-
 $$
 \text{Fig.1: Architecture topology}
 $$
@@ -57,7 +56,7 @@ $$
 &W-\text{weights vector of}~f^{(1)} \\
 &c-\text{biases vector of}~f^{(1)} \\
 &z(x; W,c)=x^TW+c-\text{input function} \\
-&g(z)=max\{0, z\}-\text{activation function ReLU}
+&g(z)=max\lbrace0, z\rbrace-\text{activation function ReLU}
 \end{aligned}
 $$
 
@@ -65,7 +64,7 @@ The input function $z$ is a default affine transformation allowing learning algo
 
 ### > Composition
 $$
-f(x; W,c,w,b) = f^{(2)}( f^{(1)}( x)) = w^Tmax\{0, W^Tx+c\}+b
+f(x; W,c,w,b) = f^{(2)}( f^{(1)}( x)) = w^Tmax\lbrace0, W^Tx+c\rbrace+b
 $$
 ### > Cost Function
 $$
