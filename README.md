@@ -19,7 +19,15 @@ XOR function via FFM architechture with no use of frameworks.
 # 3. Method
 Algorythm structure is comprised of 5 parts: Dataset, Model, Cost function, Optimization procedure and Initializing data. Describtion of every part is provided below.
 ## 3.1. Dataset
-$$𝕏=\lbrace{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\rbrace}$$
+$$
+𝕏=\lbrace{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\rbrace},~
+f^*=\begin{bmatrix}
+    0 \\
+    1 \\
+    1 \\
+    0 \\
+    \end{bmatrix}
+$$
 ## 3.2. Model
 ### > FFM architecture:
 ![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Fig1.png)
@@ -57,11 +65,12 @@ $$
 &W-\text{weights vector of}~f^{(1)} \\
 &c-\text{biases vector of}~f^{(1)} \\
 &z(x; W,c)=x^TW+c-\text{input function} \\
-&g(z)=max\lbrace0, z\rbrace-\text{activation function ReLU}
+&g(z_i)=max\lbrace0, z_{:,i}\rbrace-\text{activation function ReLU}
 \end{aligned}
 $$
 
-The input function $z$ is a default affine transformation allowing learning algorythm to manipulate data to find representation that reduces error.
+The input function $z$ is a default affine transformation allowing learning algorythm to manipulate data to find representation that reduces error. \
+Activation function is applied to every element in the vector.
 
 ### > Input layer:
 $$
@@ -94,8 +103,8 @@ $$
 \text{N/A}
 $$
 
-In particular, the problem doesn't need optimization due to guaranteed convergence of linear equation of linear regression model.\
-In general, the stochastic gradient descent is usually used and produces acceptable results.
+For this particular example the optimal parameters are already known and provided as initializing data.\
+In general, the stochastic gradient descent is usually used to find them and produces acceptable results.
 
 ### > Initializing data
 $$
