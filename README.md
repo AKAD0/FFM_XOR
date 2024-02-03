@@ -103,7 +103,7 @@ $$
 \text{N/A}
 $$
 
-For this particular example the optimal parameters are already known and provided as initializing data.\
+For this particular example optimal parameters are already known and provided as initializing data.\
 In general, the stochastic gradient descent is usually used to find them and produces acceptable results.
 
 ### > Initializing data
