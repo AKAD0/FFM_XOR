@@ -11,10 +11,10 @@
 5. Results
 
 # 1. Describtion
-Neural Network of FFM architecture to solve XOR problem. This is a hello-world project to practice mathematical apparatus behind deep learning.
+Neural Network of FNN architecture to solve XOR problem. This is a hello-world project to practice mathematical apparatus behind deep learning.
 
 # 2. Problem
-XOR function via FFM architechture with no use of frameworks.
+XOR function via FNN architechture with no use of frameworks.
 
 # 3. Method
 Algorythm structure is comprised of 5 parts: Dataset, Model, Cost function, Optimization procedure and Initializing data. Describtion of every part is provided below.
@@ -29,8 +29,8 @@ f^*=\begin{bmatrix}
     \end{bmatrix}
 $$
 ## 3.2. Model
-### > FFM architecture:
-![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Fig1.png)
+### > FNN architecture:
+![alt text](https://github.com/AKAD0/FNN_XOR/blob/master/Fig1.png)
 
 $$
 \text{Fig.1: Topology of the architecture}
@@ -45,8 +45,8 @@ $$
 \begin{aligned}
 \text{where}~
 &w-\text{weights vector of}~f^{(2)} \\
-&b-\text{biases vector}~f^{(2)} \\
-&h-\text{output vector}~f^{(1)} \\
+&b-\text{biases vector of}~f^{(2)} \\
+&h-\text{output vector of}~f^{(1)} \\
 \end{aligned}
 $$
 
@@ -104,7 +104,7 @@ $$
 $$
 
 For this particular example optimal parameters are already known and provided as initializing data.\
-In general, the stochastic gradient descent is usually used to find them and produces acceptable results.
+In general, the stochastic gradient descent is usually used to find these parameters and produces acceptable results.
 
 ### > Initializing data
 $$
@@ -127,13 +127,13 @@ b=0
 $$
 
 # 4. Code
-![alt text](https://github.com/AKAD0/FFM_XOR/blob/master/Block.png)
+![alt text](https://github.com/AKAD0/FNN_XOR/blob/master/Block.png)
 
 $$
 \text{Fig.2: Block scheme of the algorythm}
 $$
 
-The listing of the program is provided in the '/FFM_XOR.ipynb' file.
+The listing of the program is provided in the '/FNN_XOR.ipynb' file.
 
 # 5. Results
 MSE metric evaluated as '0.0' and simple human check of outputted results show that the algorythm solves the problem.
