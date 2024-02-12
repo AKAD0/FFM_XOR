@@ -30,7 +30,7 @@ f^*=\begin{bmatrix}
 $$
 ## 3.2. Model
 ### > FNN architecture:
-![alt text](https://github.com/AKAD0/FNN/blob/master/Fig1.png)
+![alt text](https://github.com/AKAD0/FNN_XOR/blob/master/Fig1.png)
 
 $$
 \text{Fig.1: Topology of the architecture}
@@ -94,8 +94,8 @@ $$
 \text{where}~
 &θ-\text{optimizing parameters W,c,w,b} \\
 &x-\text{input data} \\
-&f^{*}-\text{true function} \\
-&f-\text{approximating function}
+&f^{*}-\text{true distribution function} \\
+&f-\text{approximating distribution function}
 \end{aligned}
 $$
 ### > Optimization procedure
@@ -127,13 +127,13 @@ b=0
 $$
 
 # 4. Code
-![alt text](https://github.com/AKAD0/FNN/blob/master/Block.png)
+![alt text](https://github.com/AKAD0/FNN_XOR/blob/master/Block.png)
 
 $$
 \text{Fig.2: Block scheme of the algorythm}
 $$
 
-The listing of the program is provided in the '/FNN.ipynb' file.
+The listing of the program is provided in the '/FNN_XOR.ipynb' file.
 
 # 5. Results
 MSE metric evaluated as '0.0' and simple human check of outputted results show that the algorythm solves the problem.
