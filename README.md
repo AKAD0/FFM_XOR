@@ -11,7 +11,7 @@
 5. Results
 
 # 1. Describtion
-One of the most important steps in development of Deep Learning - as a field - was solving the XOR problem by moving away from binary step as an activation function. First, switched to sigmoid functions and later to ReLU (rectified linear unit), Neural Networks acquired the ability to approximate to any function (see 'Universal Approximation Theorem', Hornik et al., 1989; Cybenko, 1989).
+One of the most important steps in development of Deep Learning as a field was solving the XOR problem by moving away from binary step as an activation function. First, switched to sigmoid functions and later to ReLU (rectified linear unit), Neural Networks acquired the ability to approximate to any function (see 'Universal Approximation Theorem', Hornik et al., 1989; Cybenko, 1989).
 
 One of the first universal network architectures to solve general approximation problems was the FNN (Feedforward Neural Network) architecture that's widely used to this day.
 
