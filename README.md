@@ -17,6 +17,8 @@ One of the first universal network architectures to solve general approximation 
 
 This project presents the mathematical apparatus of the FNN architecture to solve XOR problem and the implementing python code.
 
+IMPORTANT: This project doesn't include the optimization procedure. To see how the optimization by Stochastic Gradient Descent works, check my another project by following link: https://github.com/AKAD0/FNN.SGD_MNIST.git
+
 # 2. Problem
 XOR function via FNN architechture with no use of frameworks.
 
