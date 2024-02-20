@@ -23,7 +23,7 @@ IMPORTANT: This project doesn't include the optimization procedure. To see how t
 XOR function via FNN architechture with no use of frameworks.
 
 # 3. Method
-Algorythm structure is comprised of 5 parts: Dataset, Model, Cost function, Optimization procedure and Initializing data. Describtion of every part is provided below.
+Algorithm structure is comprised of 5 parts: Dataset, Model, Cost function, Optimization procedure and Initializing data. Describtion of every part is provided below.
 ## 3.1. Dataset
 $$
 𝕏=\lbrace{[0,0]^T, [0,1]^T, [1,0]^T, [1,1]^T\rbrace},~
@@ -77,7 +77,7 @@ $$
 \end{aligned}
 $$
 
-The input function $z$ is a default affine transformation allowing learning algorythm to manipulate data to find representation that reduces error. \
+The input function $z$ is a default affine transformation allowing learning algorithm to manipulate data to find representation that reduces error. \
 Activation function is applied to every element in the vector.
 
 ### > Input layer:
@@ -140,10 +140,10 @@ $$
 </p>
 
 $$
-\text{Fig.2: Block scheme of the algorythm}
+\text{Fig.2: Block scheme of the algorithm}
 $$
 
 The listing of the program is provided in the '/FNN_XOR.ipynb' file.
 
 # 5. Results
-MSE metric evaluated as '0.0' and simple human check of outputted results show that the algorythm solves the problem.
+MSE metric evaluated as '0.0' and simple human check of outputted results show that the algorithm solves the problem.
