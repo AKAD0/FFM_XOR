@@ -11,7 +11,9 @@
 5. Results
 
 # 1. Describtion
-Neural Network of FNN architecture to solve XOR problem. This is a hello-world project to practice mathematical apparatus behind deep learning.
+One of the most important steps in development of Deep Learning - as a field - was solving the XOR problem by moving away from binary step as an activation function. First, switched to sigmoid functions and later to ReLU (rectified linear unit), Neural Networks acquired the ability to approximate to any function (see 'Universal Approximation Theorem', Hornik et al., 1989; Cybenko, 1989).
+One of the first universal network architectures to solve general approximation problems was the FNN (Feedforward Neural Network) architecture that's widely used to this day.
+This project presents the mathematical apparatus of the FNN architecture to solve XOR problem and the implementing python code.
 
 # 2. Problem
 XOR function via FNN architechture with no use of frameworks.
@@ -30,7 +32,9 @@ f^*=\begin{bmatrix}
 $$
 ## 3.2. Model
 ### > FNN architecture:
-![alt text](https://github.com/AKAD0/FNN_XOR/blob/master/Fig1.png)
+<p align="center">
+  <img src="https://github.com/AKAD0/FNN_XOR/blob/master/Fig1.png">
+</p>
 
 $$
 \text{Fig.1: Topology of the architecture}
@@ -94,8 +98,8 @@ $$
 \text{where}~
 &θ-\text{optimizing parameters W,c,w,b} \\
 &x-\text{input data} \\
-&f^{*}-\text{true distribution function} \\
-&f-\text{approximating distribution function}
+&f^{*}-\text{true function} \\
+&f-\text{approximating function}
 \end{aligned}
 $$
 ### > Optimization procedure
@@ -127,7 +131,9 @@ b=0
 $$
 
 # 4. Code
-![alt text](https://github.com/AKAD0/FNN_XOR/blob/master/Block.png)
+<p align="center">
+  <img src="https://github.com/AKAD0/FNN_XOR/blob/master/Block.png">
+</p>
 
 $$
 \text{Fig.2: Block scheme of the algorythm}
